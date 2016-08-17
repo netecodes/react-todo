@@ -2,7 +2,6 @@
 
 - Webpack
 - ES6 Babel
-- Foundation
 - jQuery
 - SCSS
 - Foundation
