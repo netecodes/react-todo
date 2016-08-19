@@ -5,7 +5,7 @@ export default class Todo extends React.Component {
       var {text, id, completed} = this.props;
     return (
       <div onClick={() => this.props.onToggle(id)}>
-        <input type="checkbox" checked={completed} readOnly/>
+        <input type="checkbox" checked={completed} />
         {text}
       </div>
     )
